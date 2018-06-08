@@ -1,0 +1,93 @@
+body {
+    background-color: #113285;
+    text-align: center;
+    font-family:"柳楷";
+}
+
+a,
+body {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 14%;
+}
+
+.main {
+    font-size: 18px;
+    margin-top: 12%;
+}
+
+.main a{
+    position: relative;
+    margin: 0 60px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.main a:before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    width: 0;
+    height: 1px;
+    background: #ffffff;
+    transition: all .3s;
+}
+
+.main a:hover:before{
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.order {
+    height: 90px;
+    line-height: 160px;  
+    text-align: center;
+    margin-top: 10%;
+    
+}  
+.order .line {  
+    display: inline-block;  
+    width: 10%;  
+    border-top: 1px solid #ffffff ;  
+}  
+.order .txt {  
+    color: #ffffff;  
+    vertical-align: -4px;
+    font-size: 16px;
+}
+
+.info {
+    font-size: 18px;
+    line-height: 36px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+
+.homeIcon {
+    background-image: url("../ye.svg");
+    background-size: 56px 56px;
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    margin-top: 6%;
+}
+
+.contactFooter {
+    margin-top: 2%;    
+}
+
+.contactFooter a{
+display: block;
+}
+
+@font-face {  
+    font-family: '柳楷';  
+    src:url('../fonts/柳楷.ttf');
+} 
